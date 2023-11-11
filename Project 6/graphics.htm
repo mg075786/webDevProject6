@@ -50,7 +50,7 @@ if (document.images) {
 	logo2.src = "images/logo2.jpg"
 }
 
-
+<!-- Begin comment for older browser//
 		var imgArray = new Array(
 			'Image1Lg.jpg',
 			'Image2Lg.jpg',
@@ -62,10 +62,10 @@ if (document.images) {
 
 
 		var titleArray = new Array(
-			'Dog Performing a Trick',
-			'Two Dogs',
-			'Dog and Two Boys Portrait',
-			'Woman and Dog'
+			'Girl with Hamster',
+			'Snake',
+			'Dog',
+			'Two Dogs'
 			
 		);
 			
@@ -76,7 +76,7 @@ if (document.images) {
 			var theImage = document.getElementById('theImage');
 			var textDiv = document.getElementById('bottomText');
 
-			var newImg;
+			var newImg = ;
 			var textTitle;
 
 			newImg = imgArray[imgID];
@@ -104,8 +104,8 @@ if (document.images) {
 <div align="center">
 
 <div>
-	<a href="" onMouseOver="document.getElementById('print').src='Images/print2.jpg';"
-	onMouseOut="document.getElementById('print').src='Images/print1.jpg';">
+	<a href="" onMouseOver="document.getElementById('print').src='Images/Print2.jpg';"
+	onMouseOut="document.getElementById('print').src='Images/Print1.jpg';">
 
 	<img src="Images/Print1.jpg" width="200" height="50" 
 	id="print" name="PrintButton" alt="PrintButton" style="border:none;">
@@ -114,12 +114,16 @@ if (document.images) {
 </div>
 
 
-<div id="logo">
-	<a href="" onMouseOver="document.getElementById('logo').src='Images/logo1.jpg';"
-	onMouseOut="document.getElementById('logo').src='Images/logo.jpg';">
+<div>
+	<a href="" onMouseOver="document.getElementById('logo').src='Images/Logo2.jpg';"
+	onMouseOut="document.getElementById('logo').src='Images/Logo.jpg';">
 
-	<img src="Images/logo.jpg" width="133" height="126" alt="logo" id="logo" name="logo" style="border:none;"/>
+	
 
+	<img src="Images/Logo.jpg" width="133" height="126" 
+	alt="logo" id="logo" name="logo" style="border:none;">
+	
+	
 	</a>
 </div>
 
